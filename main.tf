@@ -6,7 +6,7 @@ resource "aws_instance" "webserver" {
   ami = "ami-026f33d38b6410e30"
   instance_type = "t2.micro"
   tags =  {
-      Name = "MyInstance"
+      Name = "MyInstance1"
   }
   availability_zone = "ap-south-1a"
 }
